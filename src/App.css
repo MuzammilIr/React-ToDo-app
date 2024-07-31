@@ -1,0 +1,197 @@
+/* body {
+  background-color: brown; 
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-app {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: burlywood;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theme h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 0;
+  padding: 10px 0;
+  background-color: black;
+  border-radius: 10px;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+input[type='text'] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #f10a0a;
+  color: #fff;
+}
+
+.button2 {
+  background-color: #333;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.List {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.delete {
+  background-color: #f10a0a;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: darkred;
+  font-weight: bold;
+}
+
+td {
+  background-color: brown;
+}
+
+
+.button1:hover,
+.button2:hover,
+.delete:hover {
+  background-color: #f30a0a;
+}
+
+table + table {
+  margin-top: 20px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+  background-color: #fff;
+}
+
+.Head{
+  margin-left: 40px;
+}
+.list{
+  margin-left: 85px;
+}
+h3,h2{
+  font-family: 'Roboto', sans-serif;
+}
+h3{
+  color: #101010;
+}
+h2{
+  color: #3f51b5;
+}
+button{
+  border-radius: 25px;
+  word-spacing: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  
+}
+.button1 , .button3{
+  color: black;
+  padding: 5px 11px;
+  margin-right: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  border: solid;
+}
+
+.button2 {
+  color: white;
+  padding: 5px 11px;
+  margin-right: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  border: solid;
+}
+
+
+
+
+.List {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 100px;
+  background-color: #4CAF50;
+  border-radius: 9px;
+}
+
+.List button {
+  margin-right: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.button1:hover,
+.button3:hover,
+.button2:hover,
+.delete:hover {
+  opacity: 0.8;
+}
+
+.list td {
+  padding: 10px;
+  text-align: center;
+}
+
+table.Head{
+  background-color: cadetblue;
+  border-radius: 9px;
+}
